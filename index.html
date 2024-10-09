@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>程龙 - 个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Dragon</div>
+            <ul>
+                <li><a href="#home">主页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="banner">
+            <div class="banner-content">
+                <h1 class="animate-text">设计未来,一个像素一个梦想</h1>
+                <button id="learn-more">了解更多</button>
+            </div>
+        </section>
+
+        <section id="photo-carousel">
+            <div class="carousel-container">
+                <div class="carousel-wrapper">
+                    <!-- 照片轮播将通过JavaScript动态添加 -->
+                </div>
+                <button class="carousel-button prev">&lt;</button>
+                <button class="carousel-button next">&gt;</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container slide-in">
+                <h2>关于我</h2>
+                <p>岁月尚浅，灵魂已然深邃。在这个瞬息万变的世界里，我寻求着思想的永恒，探索着未知的边界。22岁的我，站在学术的旅途上，如同一位诗人般，在科学与艺术之间编织思想的丝线。</p>
+                <p>我的日子是由数据和概念构成的万花筒，而我却总在其中寻找内在的秩序与美感。知识是海，我甘愿沉浸其中，追逐那些深藏海底的真理与智慧。每一个问题都像一扇未开启的门，背后或许是新的世界，或许是内心的投影。</p>
+                <p>我相信，无论是科学还是艺术，本质上都是人类对自身和宇宙的凝视。我在公式与实验中寻找到的，不仅是答案，更是对自我与未来的提问。</p>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container slide-in">
+                <h2>作品展示</h2>
+                <div class="portfolio-controls">
+                    <button id="portfolio-toggle-1" class="portfolio-toggle active">作品集 1</button>
+                    <button id="portfolio-toggle-2" class="portfolio-toggle">作品集 2</button>
+                </div>
+                <div id="portfolio-gallery-1" class="portfolio-gallery active">
+                    <!-- 作品集1的内容将通过JavaScript动态添加 -->
+                </div>
+                <div id="portfolio-gallery-2" class="portfolio-gallery">
+                    <!-- 作品集2的内容将通过JavaScript动态添加 -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container slide-in">
+                <h2>联系我</h2>
+                <div class="social-links">
+                    <!-- 社交媒体链接将通过JavaScript动态添加 -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            © 2024 程龙. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
